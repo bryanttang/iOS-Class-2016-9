@@ -26,20 +26,20 @@
 - (IBAction)clicknum1:(id)sender {
     NSLog(@"click 1");
     _display.text = @"1";
-    [cal setOprand:@"1"];
+    [cal setOperand:@"1"];
     
 }
 
 - (IBAction)clicknum2:(id)sender {
     NSLog(@"click 2");
     _display.text = @"2";
-    [cal setOprand:@"2"];
+    [cal setOperand:@"2"];
 }
 
 - (IBAction)clicknum3:(id)sender {
     NSLog(@"click 3");
     _display.text = @"3";
-    [cal setOprand:@"3"];
+    [cal setOperand:@"3"];
 }
 
 - (IBAction)clickAdd:(id)sender {

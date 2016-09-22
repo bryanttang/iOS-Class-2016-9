@@ -14,14 +14,14 @@
     double M2;
     double M3;
     double result;
-    double oprand;
+    double operand;
     NSString *operator_;
     
     
 }
 
 - (void)clear;
-- (void)setOprand:(NSString*)text;
+- (void)setOperand:(NSString*)text;
 - (void)calculate;
 - (void)setOperator:(NSString*)text;
 - (NSString*)getResult;

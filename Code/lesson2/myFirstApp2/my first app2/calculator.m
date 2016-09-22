@@ -13,7 +13,7 @@
 
 - (void)clear{
     operator_ = @"";
-    oprand = 0.0;
+    operand = 0.0;
     result = 0.0;
 }
 
@@ -21,17 +21,17 @@
     operator_ = op;
 }
 
-- (void)setOprand:(NSString*)text{
-    oprand = text.doubleValue;
+- (void)setOperand:(NSString*)text{
+    operand = text.doubleValue;
 }
 
 - (void)calculate{
     if ([operator_ isEqualToString:@"+"]) {
-        result = result + oprand;
+        result = result + operand;
     }else if ([operator_ isEqualToString:@""]){
-        result = oprand;
+        result = operand;
     }
-    oprand = 0.0;
+    operand = 0.0;
 }
 
 - (NSString*)getResult{
