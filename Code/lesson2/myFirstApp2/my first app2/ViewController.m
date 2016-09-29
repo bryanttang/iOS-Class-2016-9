@@ -19,42 +19,67 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     
-    cal = [calculator new];
+    
+    
+    calculator *cal = [[calculator alloc] init];
+    
     [cal clear];
+    
+    
+
 }
 
-- (IBAction)clicknum1:(id)sender {
-    NSLog(@"click 1");
-    _display.text = @"1";
-    [cal setOperand:@"1"];
+- (IBAction)clickNum1:(id)sender {
+    
+    //Do something
+   
+    self.display.text = @"1";
+    
+    //[self.display setText:@"1"];
+    
+//    [UIView animateWithDuration:1.0
+//                          delay:0.0
+//                        options:UIViewAnimationOptionCurveEaseIn
+//                     animations:^{
+//                         //do something
+//                     } completion:^(BOOL finished) {
+//                         
+//                     }];
     
 }
 
-- (IBAction)clicknum2:(id)sender {
-    NSLog(@"click 2");
-    _display.text = @"2";
-    [cal setOperand:@"2"];
-}
-
-- (IBAction)clicknum3:(id)sender {
-    NSLog(@"click 3");
-    _display.text = @"3";
-    [cal setOperand:@"3"];
-}
-
-- (IBAction)clickAdd:(id)sender {
-    
-    [cal calculate];
-    [cal setOperator:@"+"];
-    
-}
-
-- (IBAction)clickEquel:(id)sender {
-    
-    [cal calculate];
-    _display.text = [cal getResult];
-    
-}
+//- (IBAction)clicknum1:(id)sender {
+//    NSLog(@"click 1");
+//    _display.text = @"1";
+//    [cal setOperand:@"1"];
+//    
+//}
+//
+//- (IBAction)clicknum2:(id)sender {
+//    NSLog(@"click 2");
+//    _display.text = @"2";
+//    [cal setOperand:@"2"];
+//}
+//
+//- (IBAction)clicknum3:(id)sender {
+//    NSLog(@"click 3");
+//    _display.text = @"3";
+//    [cal setOperand:@"3"];
+//}
+//
+//- (IBAction)clickAdd:(id)sender {
+//    
+//    [cal calculate];
+//    [cal setOperator:@"+"];
+//    
+//}
+//
+//- (IBAction)clickEquel:(id)sender {
+//    
+//    [cal calculate];
+//    _display.text = [cal getResult];
+//    
+//}
 
 
 

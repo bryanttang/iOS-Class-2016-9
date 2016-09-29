@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51108C01AF106B5000DCB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51108BF1AF106B5000DCB82 /* main.m */; };
+		B51108C31AF106B5000DCB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51108C21AF106B5000DCB82 /* AppDelegate.m */; };
+		B51108C61AF106B5000DCB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51108C51AF106B5000DCB82 /* ViewController.m */; };
+		B51108C91AF106B5000DCB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51108C71AF106B5000DCB82 /* Main.storyboard */; };
+		B51108CB1AF106B5000DCB82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51108CA1AF106B5000DCB82 /* Images.xcassets */; };
+		B51108CE1AF106B5000DCB82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51108CC1AF106B5000DCB82 /* LaunchScreen.xib */; };
+		B51108DA1AF106B5000DCB82 /* HelloMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51108D91AF106B5000DCB82 /* HelloMapTests.m */; };
+		B51108E41AF1075C000DCB82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51108E31AF1075C000DCB82 /* MapKit.framework */; };
+		B51108E61AF1146F000DCB82 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51108E51AF1146F000DCB82 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51108D41AF106B5000DCB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51108B21AF106B5000DCB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51108B91AF106B5000DCB82;
+			remoteInfo = HelloMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51108BA1AF106B5000DCB82 /* HelloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51108BE1AF106B5000DCB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51108BF1AF106B5000DCB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51108C11AF106B5000DCB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B51108C21AF106B5000DCB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B51108C41AF106B5000DCB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B51108C51AF106B5000DCB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B51108C81AF106B5000DCB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51108CA1AF106B5000DCB82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B51108CD1AF106B5000DCB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B51108D31AF106B5000DCB82 /* HelloMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51108D81AF106B5000DCB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51108D91AF106B5000DCB82 /* HelloMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMapTests.m; sourceTree = "<group>"; };
+		B51108E31AF1075C000DCB82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B51108E51AF1146F000DCB82 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51108B71AF106B5000DCB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51108E61AF1146F000DCB82 /* CoreLocation.framework in Frameworks */,
+				B51108E41AF1075C000DCB82 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51108D01AF106B5000DCB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51108B11AF106B5000DCB82 = {
+			isa = PBXGroup;
+			children = (
+				B51108E51AF1146F000DCB82 /* CoreLocation.framework */,
+				B51108E31AF1075C000DCB82 /* MapKit.framework */,
+				B51108BC1AF106B5000DCB82 /* HelloMap */,
+				B51108D61AF106B5000DCB82 /* HelloMapTests */,
+				B51108BB1AF106B5000DCB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51108BB1AF106B5000DCB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51108BA1AF106B5000DCB82 /* HelloMap.app */,
+				B51108D31AF106B5000DCB82 /* HelloMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51108BC1AF106B5000DCB82 /* HelloMap */ = {
+			isa = PBXGroup;
+			children = (
+				B51108C11AF106B5000DCB82 /* AppDelegate.h */,
+				B51108C21AF106B5000DCB82 /* AppDelegate.m */,
+				B51108C41AF106B5000DCB82 /* ViewController.h */,
+				B51108C51AF106B5000DCB82 /* ViewController.m */,
+				B51108C71AF106B5000DCB82 /* Main.storyboard */,
+				B51108CA1AF106B5000DCB82 /* Images.xcassets */,
+				B51108CC1AF106B5000DCB82 /* LaunchScreen.xib */,
+				B51108BD1AF106B5000DCB82 /* Supporting Files */,
+			);
+			path = HelloMap;
+			sourceTree = "<group>";
+		};
+		B51108BD1AF106B5000DCB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51108BE1AF106B5000DCB82 /* Info.plist */,
+				B51108BF1AF106B5000DCB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51108D61AF106B5000DCB82 /* HelloMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51108D91AF106B5000DCB82 /* HelloMapTests.m */,
+				B51108D71AF106B5000DCB82 /* Supporting Files */,
+			);
+			path = HelloMapTests;
+			sourceTree = "<group>";
+		};
+		B51108D71AF106B5000DCB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51108D81AF106B5000DCB82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51108B91AF106B5000DCB82 /* HelloMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51108DD1AF106B5000DCB82 /* Build configuration list for PBXNativeTarget "HelloMap" */;
+			buildPhases = (
+				B51108B61AF106B5000DCB82 /* Sources */,
+				B51108B71AF106B5000DCB82 /* Frameworks */,
+				B51108B81AF106B5000DCB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMap;
+			productName = HelloMap;
+			productReference = B51108BA1AF106B5000DCB82 /* HelloMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51108D21AF106B5000DCB82 /* HelloMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51108E01AF106B5000DCB82 /* Build configuration list for PBXNativeTarget "HelloMapTests" */;
+			buildPhases = (
+				B51108CF1AF106B5000DCB82 /* Sources */,
+				B51108D01AF106B5000DCB82 /* Frameworks */,
+				B51108D11AF106B5000DCB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51108D51AF106B5000DCB82 /* PBXTargetDependency */,
+			);
+			name = HelloMapTests;
+			productName = HelloMapTests;
+			productReference = B51108D31AF106B5000DCB82 /* HelloMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51108B21AF106B5000DCB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CPTTM;
+				TargetAttributes = {
+					B51108B91AF106B5000DCB82 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B51108D21AF106B5000DCB82 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B51108B91AF106B5000DCB82;
+					};
+				};
+			};
+			buildConfigurationList = B51108B51AF106B5000DCB82 /* Build configuration list for PBXProject "HelloMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51108B11AF106B5000DCB82;
+			productRefGroup = B51108BB1AF106B5000DCB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51108B91AF106B5000DCB82 /* HelloMap */,
+				B51108D21AF106B5000DCB82 /* HelloMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51108B81AF106B5000DCB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51108C91AF106B5000DCB82 /* Main.storyboard in Resources */,
+				B51108CE1AF106B5000DCB82 /* LaunchScreen.xib in Resources */,
+				B51108CB1AF106B5000DCB82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51108D11AF106B5000DCB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51108B61AF106B5000DCB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51108C61AF106B5000DCB82 /* ViewController.m in Sources */,
+				B51108C31AF106B5000DCB82 /* AppDelegate.m in Sources */,
+				B51108C01AF106B5000DCB82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51108CF1AF106B5000DCB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51108DA1AF106B5000DCB82 /* HelloMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51108D51AF106B5000DCB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51108B91AF106B5000DCB82 /* HelloMap */;
+			targetProxy = B51108D41AF106B5000DCB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51108C71AF106B5000DCB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51108C81AF106B5000DCB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51108CC1AF106B5000DCB82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51108CD1AF106B5000DCB82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51108DB1AF106B5000DCB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B51108DC1AF106B5000DCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51108DE1AF106B5000DCB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B51108DF1AF106B5000DCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B51108E11AF106B5000DCB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMap.app/HelloMap";
+			};
+			name = Debug;
+		};
+		B51108E21AF106B5000DCB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMap.app/HelloMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51108B51AF106B5000DCB82 /* Build configuration list for PBXProject "HelloMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51108DB1AF106B5000DCB82 /* Debug */,
+				B51108DC1AF106B5000DCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51108DD1AF106B5000DCB82 /* Build configuration list for PBXNativeTarget "HelloMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51108DE1AF106B5000DCB82 /* Debug */,
+				B51108DF1AF106B5000DCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51108E01AF106B5000DCB82 /* Build configuration list for PBXNativeTarget "HelloMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51108E11AF106B5000DCB82 /* Debug */,
+				B51108E21AF106B5000DCB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51108B21AF106B5000DCB82 /* Project object */;
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA" : 0,
+    "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D9BCD00C-AF80-46E0-8639-9FE5A534FAF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA" : "",
+    "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9" : "Code"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lesson1\/calculator\/calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2015-9.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2016-9.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA"
+    }
+  ]
+}

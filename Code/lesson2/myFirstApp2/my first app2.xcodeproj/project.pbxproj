@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5114F581D9416E800211A39 /* Calculator2.m in Sources */ = {isa = PBXBuildFile; fileRef = B5114F571D9416E800211A39 /* Calculator2.m */; };
 		B58BF29B1D93B95E003CF9EE /* calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B58BF29A1D93B95E003CF9EE /* calculator.m */; };
 		B5F6FED61D90203D00CA4404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6FED51D90203D00CA4404 /* main.m */; };
 		B5F6FED91D90203D00CA4404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F6FED81D90203D00CA4404 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5114F561D9416E800211A39 /* Calculator2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator2.h; sourceTree = "<group>"; };
+		B5114F571D9416E800211A39 /* Calculator2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator2.m; sourceTree = "<group>"; };
 		B58BF2991D93B95E003CF9EE /* calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
 		B58BF29A1D93B95E003CF9EE /* calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculator.m; sourceTree = "<group>"; };
 		B5F6FED11D90203D00CA4404 /* my first app2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my first app2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +75,8 @@
 				B5F6FEE21D90203D00CA4404 /* LaunchScreen.storyboard */,
 				B5F6FEE51D90203D00CA4404 /* Info.plist */,
 				B5F6FED41D90203D00CA4404 /* Supporting Files */,
+				B5114F561D9416E800211A39 /* Calculator2.h */,
+				B5114F571D9416E800211A39 /* Calculator2.m */,
 			);
 			path = "my first app2";
 			sourceTree = "<group>";
@@ -115,7 +120,7 @@
 				TargetAttributes = {
 					B5F6FED01D90203D00CA4404 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 77EAS8XQS3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -158,6 +163,7 @@
 				B5F6FEDC1D90203D00CA4404 /* ViewController.m in Sources */,
 				B58BF29B1D93B95E003CF9EE /* calculator.m in Sources */,
 				B5F6FED91D90203D00CA4404 /* AppDelegate.m in Sources */,
+				B5114F581D9416E800211A39 /* Calculator2.m in Sources */,
 				B5F6FED61D90203D00CA4404 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 77EAS8XQS3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "my first app2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mo.cpttm.my-first-app2";
@@ -284,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 77EAS8XQS3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "my first app2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mo.cpttm.my-first-app2";

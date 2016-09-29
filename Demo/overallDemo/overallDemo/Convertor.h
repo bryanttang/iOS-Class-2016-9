@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Convertor : UIViewController
+@property (strong) IBOutlet UITextField *input;
+@property (strong) IBOutlet UILabel *result;
 
+- (IBAction)clickConvertor:(id)sender;
 @end

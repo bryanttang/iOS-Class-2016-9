@@ -10,14 +10,34 @@
 #import "calculator.h"
 
 @interface ViewController : UIViewController
-{
+
+@property (strong, nonatomic) IBOutlet UITextField *display;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//{
 //    NSString * oprand1;
 //    NSString * oprand2;
 //    NSString * operator_;
-    calculator *cal;
-    
-}
-@property (strong, nonatomic) IBOutlet UITextField *display;
+//    calculator *cal;
+   
+//}
+//@property (strong, nonatomic) IBOutlet UITextField *display;
 
 @end
 

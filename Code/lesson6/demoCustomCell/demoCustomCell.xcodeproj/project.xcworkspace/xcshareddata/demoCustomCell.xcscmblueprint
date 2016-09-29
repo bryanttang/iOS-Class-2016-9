@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290" : 0,
+    "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "806B8A3C-7BA5-4F64-B31A-22C738EBB011",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290" : "SourceCode",
+    "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9" : "Code"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "demoCustomCell",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lesson6\/demoCustomCell\/demoCustomCell.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2015-6.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13CF7132D096A98EA0EBDC94FFC95BF216DA35C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2015-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290"
+    }
+  ]
+}

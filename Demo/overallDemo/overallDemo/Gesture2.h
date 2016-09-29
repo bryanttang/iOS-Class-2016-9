@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Ship.h"
 
 @interface Gesture2 : UIViewController
-
+{
+  
+    
+    Ship *ship;
+}
 @end

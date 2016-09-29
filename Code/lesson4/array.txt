@@ -1,0 +1,28 @@
+ships = @[@{@"id":@"1",
+                @"name":@"XFA-11 SERIES",
+                @"desp":@"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                @"img":@"ship2",
+                @"img_f":@"ship2_f",
+                @"img_b":@"ship2_b",
+                @"img_l":@"ship2_l",
+                @"img_r":@"ship2_r"},
+              
+              @{@"id":@"2",
+                @"name":@"MFA-11 SERIES",
+                @"desp":@"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                @"img":@"ship3_b",
+                @"img_f":@"ship3_f",
+                @"img_b":@"ship3_b",
+                @"img_l":@"ship3_l",
+                @"img_r":@"ship3_r"},
+              
+              @{@"id":@"3",
+                @"name":@"MA-AS KILLER",
+                @"desp":@"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                @"img":@"ship4",
+                @"img_f":@"ship4_f",
+                @"img_b":@"ship4_b",
+                @"img_l":@"ship4_l",
+                @"img_r":@"ship4_r"}
+              ];
+

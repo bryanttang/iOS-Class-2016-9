@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf3-6K-6VM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.78508792600797428" green="0.933968448575483" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BTv-Jg-AYt">
+                                        <variation key="widthClass=compact" constant="57"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" title="Previous">
+                                    <color key="titleColor" red="0.29308427402139559" green="0.62892654641727863" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BTv-Jg-AYt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="BTv-Jg-AYt"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="btnclick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hhb-Dk-qnH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VQ-JE-DGX">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.80582524271844658" blue="0.80582524271844658" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="P7K-7d-q4R">
+                                        <variation key="widthClass=compact" constant="59"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="0.2607627016715558" blue="0.23330493508250694" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="P7K-7d-q4R"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="P7K-7d-q4R"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="toRed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="laV-aN-jHd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4VQ-JE-DGX" firstAttribute="baseline" secondItem="Yf3-6K-6VM" secondAttribute="baseline" constant="1" id="1jm-wf-8hW"/>
+                            <constraint firstItem="Yf3-6K-6VM" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="1:2" id="ABU-jp-TGT">
+                                <variation key="widthClass=compact" constant="6"/>
+                            </constraint>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Yf3-6K-6VM" secondAttribute="bottom" id="EqM-JB-gGo"/>
+                            <constraint firstItem="4VQ-JE-DGX" firstAttribute="leading" secondItem="Yf3-6K-6VM" secondAttribute="trailing" id="VGc-ue-Mis">
+                                <variation key="widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="4VQ-JE-DGX" firstAttribute="width" secondItem="Yf3-6K-6VM" secondAttribute="width" id="WJd-Gt-rIX">
+                                <variation key="widthClass=compact" constant="-12"/>
+                            </constraint>
+                            <constraint firstItem="Yf3-6K-6VM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lL5-yk-v55"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Yf3-6K-6VM"/>
+                                <exclude reference="4VQ-JE-DGX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="ABU-jp-TGT"/>
+                                <exclude reference="lL5-yk-v55"/>
+                                <exclude reference="1jm-wf-8hW"/>
+                                <exclude reference="VGc-ue-Mis"/>
+                                <exclude reference="WJd-Gt-rIX"/>
+                                <exclude reference="EqM-JB-gGo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Yf3-6K-6VM"/>
+                                <include reference="4VQ-JE-DGX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="ABU-jp-TGT"/>
+                                <include reference="lL5-yk-v55"/>
+                                <include reference="1jm-wf-8hW"/>
+                                <include reference="VGc-ue-Mis"/>
+                                <include reference="WJd-Gt-rIX"/>
+                                <include reference="EqM-JB-gGo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="374"/>
+        </scene>
+    </scenes>
+</document>
