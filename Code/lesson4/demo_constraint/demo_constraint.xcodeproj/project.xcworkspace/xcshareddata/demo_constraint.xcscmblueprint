@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E5B4FF8F93F778D71FC10D0613F552EE8B32094",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2E5B4FF8F93F778D71FC10D0613F552EE8B32094" : 0,
+    "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290" : 0,
+    "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "482F03A1-1D5C-41BC-B6E9-E6D114764239",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2E5B4FF8F93F778D71FC10D0613F552EE8B32094" : "Code",
+    "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290" : "SourceCode",
+    "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "demo_constraint",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "lesson4\/demo_constraint\/demo_constraint.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2015-6.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E5B4FF8F93F778D71FC10D0613F552EE8B32094"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2016-9.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5274F1596BF2626D96FDAE6A70FE99CA9B2DB9AA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bryanttang\/iOS-Class-2015-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A68DDF9D2DF983FFCC5BEFB14FAFA8727FCAB290"
+    }
+  ]
+}
